@@ -1,11 +1,11 @@
 "=============================================================================
-" What Is This: Count makeup of a project and display the results on
+" Description: Count makeup of a project and display the results on
 "               a scratch buffer.
 " File: tokei.vim
 " Author: Vanessa McHale <tmchale@wisc.edu>
 " Version: 0.1.0.0
 " ChangeLog:
-"       1.0: initial commit.
+"       0.1.0.0: initial commit.
 if exists("g:__TOKEI_VIM__")
     finish
 endif
@@ -115,4 +115,3 @@ endfunction "}}}
 
 command! Tokei call TokeiGet()
 map <silent> co :Tokei<CR>
-" -nargs=*
