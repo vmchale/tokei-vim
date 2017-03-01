@@ -19,6 +19,8 @@ By default, tokei-vim provides a command and a keybinding:
 <silent> co
 ```
 
+Press `q` to exit when it displays the code content of your project.
+
 You can also set `g_tokei_exlude` to exlude a file or pattern; tokei follows the as a .gitignore. If you wish to exclude two patterns, separate them with a comma with no spaces, e.g.
 
 ```
