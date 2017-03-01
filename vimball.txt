@@ -1,4 +1,4 @@
-docs/tokei.txt
+doc/tokei.txt
 plugin/tokei.vim
 README.md
 LICENSE
