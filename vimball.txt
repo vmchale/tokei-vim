@@ -1,0 +1,4 @@
+docs/tokei.txt
+plugin/tokei.vim
+README.md
+LICENSE

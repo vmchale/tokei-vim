@@ -1,1 +1,1 @@
-- [ ] generate vim docs
+- [x] generate vim docs
