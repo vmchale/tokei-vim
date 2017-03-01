@@ -1,0 +1,39 @@
+*tokei.txt* Use tokei without leaving vim!
+ _____     _        _         _
+|_   _|__ | | _____(_) __   _(_)_ __ ___
+  | |/ _ \| |/ / _ \ | \ \ / / | '_ ` _ \
+  | | (_) |   <  __/ |  \ V /| | | | | | |
+  |_|\___/|_|\_\___|_|   \_/ |_|_| |_| |_|
+
+  Count code not calories. 
+====================================================================
+CONTENTS                                            *TokeiContents*
+
+    1. Usage ................ |TokeiUsage|
+    2. Config ............. |TokeiConfig|
+    3. License .............. |TokeiLicense|
+
+====================================================================
+Section 1: Usage                                       *TokeiUsage*
+
+By default, tokei-vim provides a command and a keybinding, viz.
+
+:Tokei                                                     *:Tokei*
+    Run tokei and output to a scratch buffer, e.g. >
+        :Tokei
+
+<silent> co......Run tokei...............................|Tokei-co|
+
+=====================================================================
+Section 2: Config                                       *TokeiConfig*
+
+----------------------------------------------------------------------
+                                                   *'g:tokei_exclude'*
+Values: Filepaths to exclude
+Default: 'TODO.md'
+
+This excludes any particular filepaths, in addition to anything in
+your gitignore. Files to exclude should be separated commas but no
+spaces, e.g.  >
+    let g:tokei_exclude='TODO.md,README.md'
+<
