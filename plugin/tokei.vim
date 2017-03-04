@@ -15,7 +15,7 @@ if !exists("g:tokei_line_count")
     let g:tokei_line_count = 13
 endif
 
-if !exists("g:tokei_exlude")
+if !exists("g:tokei_exclude")
     let g:tokei_exclude = 'TODO.md'
 endif
 
