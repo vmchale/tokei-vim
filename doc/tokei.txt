@@ -1,4 +1,4 @@
-*tokei.txt* Use tokei without leaving vim!
+*tokei* Use tokei without leaving vim!
  _____     _        _         _
 ❘_   _❘__ ❘ ❘ _____(_) __   _(_)_ __ ___
   ❘ ❘/ _ \❘ ❘/ / _ \ ❘ \ \ / / ❘ '_ ` _ \
