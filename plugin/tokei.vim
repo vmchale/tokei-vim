@@ -1,4 +1,4 @@
-"=============================================================================
+" =============================================================================
 " Description: Count makeup of a project and display the results on
 "               a scratch buffer.
 " File: tokei.vim
